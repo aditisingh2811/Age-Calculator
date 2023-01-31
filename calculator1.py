@@ -40,7 +40,6 @@ monthentry.grid(column=1,row=3,padx=20)
 dateentry=tk.Entry()
 dateentry.grid(column=1,row=4,padx=20)
 
-
 btn=tk.Button(win,text="Calculate Age",command=getinput,bg="lightblue")
 btn.grid(column=1,row=5,padx=5,pady=20)
 
